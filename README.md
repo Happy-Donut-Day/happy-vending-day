@@ -1,3 +1,3 @@
 # happy-vending-day
 
-Hello World! Poop.
+Hello World! ^_^
