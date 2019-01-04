@@ -24,8 +24,64 @@
   z-index: 10;
 }
 
+.custom-logo{
+  height: 50px;
+  width: auto;
+  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+}
+
+.custom-icon-circle{
+  height: 100px;
+  width: 100px;
+  font-size: 80px;
+  color: white;
+  border-radius: 100px;
+  background-color: #424F9C;
+  position: relative;
+  padding: 0;
+  margin: auto;
+}
+
+.custom-icon{
+  transform: translate(-50%,-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.logo-container-custom{
+  height: 100%;
+}
+
+.background-1{
+  background-color:  #DFDFDF;
+}
+
+.text-color-1{
+  color: #424F9C;
+}
+
 .color-1{
   background-color: #424F9C;
+}
+
+.background-2{
+  background-color: #424F9C;
+}
+
+.custom-h5{
+  letter-spacing: .05em;
+  font-weight: 500;
+}
+
+.section-top-margin{
+  margin-top: 20px;
+}
+
+.contact-padding{
+  padding: 10%;
 }
 
 .icon-block {
@@ -33,4 +89,8 @@
 }
 .icon-block .material-icons {
 	font-size: inherit;
+}
+
+.no-margin{
+  margin: 0 !important;
 }
